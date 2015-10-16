@@ -1,5 +1,8 @@
 $(document).ready(function() {
-  for (var numCount = 1; numCount <= 35; numCount += 1) {
+
+  var userInput = prompt("Please enter any positive number to see a Ping Pong list up to that number, starting from 1.");
+
+  for (var numCount = 1; numCount <= userInput; numCount += 1) {
 
     if (numCount % 3 === 0) {
 
