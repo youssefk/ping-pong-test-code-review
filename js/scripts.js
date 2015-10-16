@@ -9,7 +9,7 @@ $(document).ready(function() {
 
       }
 
-      $("#pingponglist").append("<li>" + "Ping" + "</li>");
+      else $("#pingponglist").append("<li>" + "Ping" + "</li>");
 
     } else if (numCount % 5 === 0) {
 
