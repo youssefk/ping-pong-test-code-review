@@ -1,6 +1,6 @@
 # _Ping-Pong Test Code Review_
 
-##### _This is a page for inputting a number and seeing output of numbers with Ping, Pong, and Ping-Pong at certain intervals using jQuery and javascript looping techniques learned in class_
+##### _This is a page for inputting a number and then the page counts up towards the inputted number from 1 with Ping, Pong, and Ping-Pong appearing at certain intervals using jQuery and JavaScript looping techniques learned in class._
 
 #### By _**Youssef Khalifa**_
 
