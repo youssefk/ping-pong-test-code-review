@@ -8,22 +8,21 @@ $(document).ready(function() {
 
       if (numCount % 5 === 0) {
 
-        $("#pingponglist").append("<li>" + "Ping-Pong" + "</li>");
-
+        $("#list").append("<li>Ping-Pong</li>");
       }
 
-      else $("#pingponglist").append("<li>" + "Ping" + "</li>");
+      else $("#list").append("<li>Ping</li>");
 
     } else if (numCount % 5 === 0) {
 
-      $("#pingponglist").append("<li>" + "Pong" + "</li>");
+      $("#list").append("<li>Pong</li>");
 
     } else {
 
-      $("#pingponglist").append("<li>" + numCount + "</li>");
+      $("#list").append("<li>" + numCount + "</li>");
 
     }
+    
   }
+
 });
-
-
