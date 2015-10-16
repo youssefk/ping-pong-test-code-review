@@ -3,6 +3,12 @@ $(document).ready(function() {
 
     if (numCount % 3 === 0) {
 
+      if (numCount % 5 === 0) {
+
+        $("#pingponglist").append("<li>" + "Ping-Pong" + "</li>");
+
+      }
+
       $("#pingponglist").append("<li>" + "Ping" + "</li>");
 
     } else if (numCount % 5 === 0) {
