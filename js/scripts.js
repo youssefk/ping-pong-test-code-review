@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-  var userInput = prompt("Please enter any positive number to see a Ping Pong list up to that number, starting from 1.");
+  var userInput = parseInt(prompt("Please enter any positive number to see a Ping Pong list up to that number, starting from 1."));
 
-  if (userInput) {
+  if (userInput >= 1) {
 
     for (var numCount = 1; numCount <= userInput; numCount += 1) {
 
@@ -26,6 +26,6 @@ $(document).ready(function() {
 
     }
 
-  } else $(".container").append("<h2>You didn't input anything! Reload the page and try again.</h2>");
+  } else $(".container").append("<h2>Invalid input! Please reload the page and try again.</h2>");
 
 });
